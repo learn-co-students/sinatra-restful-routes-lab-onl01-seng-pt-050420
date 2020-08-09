@@ -1,0 +1,8 @@
+<h1>Sometimes you gotta switch it up</h1>
+<form method="post" action="/recipes/<%= @recipe.id %>">
+    <input id="hidden" type="hidden" name="_method" value="PATCH">
+    <p><%= @recipe.name %>: <input type="text" id="name" name="name" placeholder="New Name Here"></p>
+    <p><%= @recipe.ingredients %>: <input type="text" name="ingredients" id="ingredients" placeholder="New Ingredients Here"></p>
+    <p><%= @recipe.cook_time %>: <input type="text" name="cook_time" id="cook time" placeholder="New Cook Time Here"></p>
+    <input type="submit" value="BAM!" id="submit">
+</form>
