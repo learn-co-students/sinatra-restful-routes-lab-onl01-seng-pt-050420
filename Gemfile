@@ -10,6 +10,7 @@ gem 'rake'
 gem 'require_all'
 gem 'shotgun'
 gem 'json'
+gem 'bcrypt', '~>3.1.7'
 gem 'pry'
 gem 'database_cleaner'
 
